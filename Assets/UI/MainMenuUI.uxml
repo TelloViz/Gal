@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Menu_CSS.uss?fileID=7433441132597879392&amp;guid=6cb4c55fdd6cce6408608e415c961ce2&amp;type=3#Menu_CSS" />
+    <ui:VisualElement name="root-container" style="flex-grow: 1; align-items: auto; justify-content: center; align-self: center; height: 100%; width: 100%;">
+        <ui:VisualElement name="title-container" style="flex-grow: 1; flex-direction: column; height: 50%; align-items: auto; justify-content: flex-start; align-self: auto; width: 100%;">
+            <ui:Label tabindex="-1" text="GAL" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title-label" style="flex-direction: row; justify-content: center; align-items: auto; font-size: 225%; -unity-text-align: middle-left; color: rgb(255, 238, 3); -unity-font-style: bold; align-self: auto; -unity-text-outline-width: 0; -unity-text-outline-color: rgba(161, 0, 0, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="bot-cont" style="flex-grow: 1; flex-direction: column; align-items: flex-end; justify-content: flex-start; align-self: flex-end; height: 25%; width: 100%; bottom: auto; background-color: rgba(221, 74, 74, 0); -unity-text-align: upper-left;">
+            <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btn-start" class="Button-Style" />
+            <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btn-quit" style="align-items: center; height: 45%; width: 35%; justify-content: flex-start; background-color: rgb(168, 112, 58); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-left-color: rgb(77, 37, 0); border-right-color: rgb(77, 37, 0); border-top-color: rgb(77, 37, 0); border-bottom-color: rgb(77, 37, 0); border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; right: 5%; bottom: 29px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
