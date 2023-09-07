@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c57d536098d9f784fa96108432745e68
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - name: {fileID: 11400000, guid: b9dd3419b951ac64699064a580a9e6ce, type: 2}
+  - appMgr: {fileID: 11400000, guid: 7e3a1f5a652167d408b90374323ef817, type: 2}
+  - associatedSceneName: {fileID: 11400000, guid: 0172998e330b18843a8f70716e709cf3, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 493f95e117e3b044da500a534fb4566b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - appManager: {fileID: 11400000, guid: 7e3a1f5a652167d408b90374323ef817, type: 2}
+  - startButtonClickedEvent: {fileID: 11400000, guid: 913fee4c62cab3640bcd047e0cfa62c3, type: 2}
+  - settingsMenuButtonClickedEvent: {fileID: 11400000, guid: d7610dbc0755b974cad209e9f153b550, type: 2}
+  - quitButtonClickedEvent: {fileID: 11400000, guid: 040cf29d462f86b4798c83a401f95046, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
