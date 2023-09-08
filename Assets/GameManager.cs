@@ -25,6 +25,9 @@ public class GameManager : Singleton<GameManager>
             case GameState.Starting:
                 HandleStarting();
                 break;
+            case GameState.MainMenu:
+                HandleMainMenu();
+                break;
             case GameState.SpawningHeroes:
                 HandleSpawningHeroes();
                 break;
@@ -61,12 +64,17 @@ public class GameManager : Singleton<GameManager>
     private void HandleMainMenu()
     {
         // State to idle in while we are in the main menu...
+
+
+
+
+
         ChangeState(GameState.SpawningHeroes);
     }
 
     private void HandleSpawningHeroes()
     {
-        ExampleUnitManager.Instance.SpawnHeroes();
+       // ExampleUnitManager.Instance.SpawnHeroes();
 
         ChangeState(GameState.SpawningEnemies);
     }

@@ -1,0 +1,5 @@
+.asfsaf {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}

@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/dfasdf.uss?fileID=7433441132597879392&amp;guid=dd39619fb93358847a8976b7799d90b8&amp;type=3#dfasdf" />
+    <ui:VisualElement style="flex-direction: row; justify-content: space-around;" />
+</ui:UXML>

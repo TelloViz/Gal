@@ -1,0 +1,69 @@
+:root {
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+    --border-width: 4px;
+
+}
+
+.bordered-box {
+    border-width: 4px;
+    border-color: white;
+    border-radius: 15px;
+}
+
+.view-box {
+    width: 500px;
+    height: 350px;
+}
+
+.view-box Label {
+    color: yellow;
+    opacity: .5;
+    font-size: 200;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    -unity-text-outline-width: 5px;
+    -unity-text-outline-color: black;
+
+    
+}
+
+.control-box {
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 500px;
+    padding: 10px;
+}
+
+.control-box Button {
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    border-width: var(--border-width);
+    border-color: orange;
+    transition: 0.25s all;
+    color: red;
+    -unity-font-style: bold;
+}
+
+.control-box Button:hover {
+    background-color: #ff8c00;
+    border-radius: 10px;
+    scale: 1.1;
+}
+
+.control-box Slider {
+    flex-grow: 1;
+}
+
+.unity-base-slider__dragger {
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    background-color: orange;
+    border-width: var(--border-width);
+    border-color: white;
+    margin-top: -16px;
+}
