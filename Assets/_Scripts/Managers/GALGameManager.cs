@@ -57,8 +57,7 @@ public class GALGameManager : Singleton<GALGameManager>
         // Do some start setup, could be environment, cinematics, etc.
 
         // Eventually call ChangeState again with your next state.
-
-        ChangeState(GameState.MainMenu);
+       // ChangeState(GameState.MainMenu);
     }
 
     private void HandleMainMenu()
