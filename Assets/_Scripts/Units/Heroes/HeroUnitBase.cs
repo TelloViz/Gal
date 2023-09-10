@@ -3,9 +3,9 @@ using UnityEngine;
 public abstract class HeroUnitBase : UnitBase {
     private bool _canMove;
 
-    private void Awake() => GameManager.OnBeforeStateChanged += OnStateChanged;
+    private void Awake() => GALGameManager.OnBeforeStateChanged += OnStateChanged;
 
-    private void OnDestroy() => GameManager.OnBeforeStateChanged += OnStateChanged;
+    private void OnDestroy() => GALGameManager.OnBeforeStateChanged += OnStateChanged;
 
     private void OnStateChanged(GameState newState) {
         if (newState == GameState.HeroTurn) _canMove = true;
@@ -13,7 +13,7 @@ public abstract class HeroUnitBase : UnitBase {
 
     private void OnMouseDown() {
         // Only allow interactions when it's the hero turn
-        if (GameManager.Instance.State != GameState.HeroTurn) return;
+        if (GALGameManager.Instance.State != GameState.HeroTurn) return;
 
         // Don't move if we've already moved
         if (!_canMove) return;
