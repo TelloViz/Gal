@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
@@ -10,19 +11,26 @@ public class PlayerController : MonoBehaviour
     private float jumpHeight = 1.0f;
     [SerializeField]
     private float gravityValue = -9.81f;
+    [SerializeField]
+    private LayerMask aimColliderLayerMask = new LayerMask();
 
-
+    [SerializeField]
+    private InputManager inputManager;
+    [SerializeField]
+    private InputActionAsset inputAsset;
+    [SerializeField]
     private CharacterController controller;
+    
+    
     private Vector3 playerVelocity;
     private bool groundedPlayer;
-    private InputManager inputManager;
     private Transform cameraTransform;
+
+    private Transform debugTransform;
 
 
     private void Start()
     {
-        controller = GetComponent<CharacterController>();
-        inputManager = InputManager.Instance;
         cameraTransform = Camera.main.transform;
     }
 
@@ -34,24 +42,11 @@ public class PlayerController : MonoBehaviour
             playerVelocity.y = 0f;
         }
 
-        Vector2 movement = inputManager.GetPlayerMove();
-        Vector3 move = new Vector3(movement.x, 0f, movement.y);
-        move = cameraTransform.forward * move.z + cameraTransform.right * move.x;
-        move.y = 0f;
-        controller.Move(move * Time.deltaTime * playerSpeed);
-
-        //if (move != Vector3.zero)
-        //{
-        //    gameObject.transform.forward = move;
-        //}
-
-        // Changes the height position of the player..
-        if (inputManager.PlayerJumpedThisFrame() && groundedPlayer)
+        Vector2 screenCenterPoint = new Vector2(Screen.width / 2f, Screen.height / 2f);
+        Ray ray = Camera.main.ScreenPointToRay(screenCenterPoint);
+        if(Physics.Raycast(ray,out RaycastHit raycastHit,999f, aimColliderLayerMask))
         {
-            playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
+            Debug.Log(debugTransform.position = raycastHit.point);
         }
-
-        playerVelocity.y += gravityValue * Time.deltaTime;
-        controller.Move(playerVelocity * Time.deltaTime);
     }
 }
