@@ -7,6 +7,7 @@ using UnityEngine;
 /// </summary>
 public class GALGameManager : Singleton<GALGameManager>
 {
+
     public static event Action<GameState> OnBeforeStateChanged;
     public static event Action<GameState> OnAfterStateChanged;
 

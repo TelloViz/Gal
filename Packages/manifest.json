@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.tarodev.uitoolkithelpers": "https://github.com/Matthew-J-Spencer/Tarodev.git?path=Assets/Plugins/UIToolkitHelpers",
+    "com.unity.animation.rigging": "1.2.1",
     "com.unity.cinemachine": "2.9.7",
     "com.unity.collab-proxy": "2.0.5",
     "com.unity.feature.development": "1.0.1",
