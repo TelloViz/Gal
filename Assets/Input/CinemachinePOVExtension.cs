@@ -9,9 +9,13 @@ public class CinemachinePOVExtension : CinemachineExtension
     [SerializeField]
     private float verticalSpeed = 10f;
     [SerializeField]
-    private float clampAngleX = 90f;
+    private float clampAngleXPositive = 60;
     [SerializeField]
-    private float clampAngleY = 80f;
+    private float clampAngleXNegative = 60f;
+    [SerializeField]
+    private float clampAngleYPositive = 45f;
+    [SerializeField]
+    private float clampAngleYNegative = 20f;
 
     private InputManager inputManager;
     private Vector3 startingRotation;
@@ -34,8 +38,8 @@ public class CinemachinePOVExtension : CinemachineExtension
                     Vector2 deltaInput = inputManager.GetMouseDelta();
                     startingRotation.x += deltaInput.x * verticalSpeed * Time.deltaTime;
                     startingRotation.y += deltaInput.y * horizontalSpeed * Time.deltaTime;
-                    startingRotation.x = Mathf.Clamp(startingRotation.x, -clampAngleX, clampAngleX);
-                    startingRotation.y = Mathf.Clamp(startingRotation.y, -clampAngleY, clampAngleY);
+                    startingRotation.x = Mathf.Clamp(startingRotation.x, -clampAngleXNegative, clampAngleXPositive);
+                    startingRotation.y = Mathf.Clamp(startingRotation.y, -clampAngleYNegative, clampAngleYPositive);
                     state.RawOrientation = Quaternion.Euler(-startingRotation.y, startingRotation.x, 0f);
                 }
             }
