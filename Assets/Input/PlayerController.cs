@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 playerVelocity;
     //private Transform cameraTransform;
 
+    [SerializeField]
     private Transform debugTransform;
 
 
@@ -37,8 +38,8 @@ public class PlayerController : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(screenCenterPoint);
         if(Physics.Raycast(ray,out RaycastHit raycastHit,999f, aimColliderLayerMask))
         {
-            debugTransform.position = raycastHit.point;
-            Debug.Log(debugTransform);
+            //debugTransform.position = raycastHit.point;
+            
         }
     }
 }

@@ -23,7 +23,7 @@ public class Aim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        upperArm.LookAt(inputManager.getMouseWorldPoint().normalized);
+        //upperArm.LookAt(inputManager.getMouseWorldPoint().normalized);
 
         //upperArm.LookAt(Target);
         //upperArm.LookAt(inputManager.getMouseWorldPoint(), new Vector3(-1, 0, 0).normalized);
