@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+﻿using Cinemachine;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
+using static UnityEngine.InputSystem.InputAction;
 #endif
 
 namespace StarterAssets
@@ -11,6 +13,14 @@ namespace StarterAssets
 #endif
 	public class FirstPersonController : MonoBehaviour
 	{
+
+		[SerializeField]
+		private CinemachineVirtualCamera vcam;
+
+		[SerializeField]
+		private Transform forwardStartVector;
+
+
 		[Header("Player")]
 		[Tooltip("Move speed of the character in m/s")]
 		public float MoveSpeed = 4.0f;
@@ -50,9 +60,17 @@ namespace StarterAssets
 		public float TopClamp = 90.0f;
 		[Tooltip("How far in degrees can you move the camera down")]
 		public float BottomClamp = -90.0f;
+        [Tooltip("How far in degrees can you move the camera up")]
+        public float LeftClamp = 90.0f;
+        [Tooltip("How far in degrees can you move the camera down")]
+        public float RightClamp = -90.0f;
 
-		// cinemachine
-		private float _cinemachineTargetPitch;
+		[SerializeField]
+		private LayerMask layerMask = new LayerMask();
+
+        // cinemachine
+        private float _cinemachineTargetPitch;
+        private float _cinemachineTargetYaw;
 
 		// player
 		private float _speed;
@@ -108,6 +126,8 @@ namespace StarterAssets
 			// reset our timeouts on start
 			_jumpTimeoutDelta = JumpTimeout;
 			_fallTimeoutDelta = FallTimeout;
+
+			vcam.transform.LookAt(forwardStartVector.transform.position);
 		}
 
 		private void Update()
@@ -119,7 +139,7 @@ namespace StarterAssets
 
 		private void LateUpdate()
 		{
-			CameraRotation();
+			//CameraRotation();
 		}
 
 		private void GroundedCheck()
@@ -129,29 +149,73 @@ namespace StarterAssets
 			Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers, QueryTriggerInteraction.Ignore);
 		}
 
-		private void CameraRotation()
+        //private void CameraRotation()
+        //{
+        //	// if there is an input
+        //	if (_input.look.sqrMagnitude >= _threshold)
+        //	{
+        //		//Don't multiply mouse input by Time.deltaTime
+        //		float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
+
+        //		_cinemachineTargetPitch += _input.look.y * RotationSpeed * deltaTimeMultiplier;
+        //		_rotationVelocity = _input.look.x * RotationSpeed * deltaTimeMultiplier;
+
+        //		// clamp our pitch rotation
+        //		_cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
+
+        //		// Update Cinemachine camera target pitch
+        //		CinemachineCameraTarget.transform.localRotation = Quaternion.Euler(_cinemachineTargetPitch, 0.0f, 0.0f);
+
+        //		// rotate the player left and right
+        //		transform.Rotate(Vector3.up * _rotationVelocity);
+        //	}
+        //}
+
+		public void OnLook(CallbackContext context)
 		{
-			// if there is an input
-			if (_input.look.sqrMagnitude >= _threshold)
-			{
-				//Don't multiply mouse input by Time.deltaTime
-				float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
-				
-				_cinemachineTargetPitch += _input.look.y * RotationSpeed * deltaTimeMultiplier;
-				_rotationVelocity = _input.look.x * RotationSpeed * deltaTimeMultiplier;
-
-				// clamp our pitch rotation
-				_cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
-
-				// Update Cinemachine camera target pitch
-				CinemachineCameraTarget.transform.localRotation = Quaternion.Euler(_cinemachineTargetPitch, 0.0f, 0.0f);
-
-				// rotate the player left and right
-				transform.Rotate(Vector3.up * _rotationVelocity);
-			}
+			if (context.performed) CameraRotation(context.ReadValue<Vector2>());
 		}
 
-		private void Move()
+        private void CameraRotation(Vector2 lookVec)
+        {
+            // if there is an input
+            if (lookVec.sqrMagnitude >= _threshold)
+            {
+                // Don't multiply mouse input by Time.deltaTime
+                float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
+
+                // Update pitch and yaw with input
+                _cinemachineTargetPitch += lookVec.y * RotationSpeed * deltaTimeMultiplier;
+                _cinemachineTargetYaw += lookVec.x * RotationSpeed * deltaTimeMultiplier;
+
+                // Clamp both pitch and yaw rotations
+                _cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
+                _cinemachineTargetYaw = ClampAngle(_cinemachineTargetYaw, LeftClamp, RightClamp);
+
+                // Update Cinemachine camera target pitch and yaw
+                CinemachineCameraTarget.transform.localRotation = Quaternion.Euler(_cinemachineTargetPitch, _cinemachineTargetYaw, 0.0f);
+
+                // Rotate the player left and right
+                //transform.Rotate(Vector3.up * _input.look.x * RotationSpeed * deltaTimeMultiplier);
+            }
+        }
+
+		public void onShoot(CallbackContext context)
+		{
+			if (context.performed == true) Shoot();
+		}
+
+		private void Shoot()
+		{
+			InputManager.getMouseWorldPoint(layerMask);
+		}
+
+		public void onMove(CallbackContext context)
+		{
+			if (context.performed) Move();
+		}
+
+        private void Move()
 		{
 			// set target speed based on move speed, sprint speed and if sprint is pressed
 			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;

@@ -65,6 +65,22 @@ public class InputManager : Singleton<InputManager>
         
     }
 
+    static public Vector3 getMouseWorldPoint(LayerMask aimColliderLayerMask)
+    {
+        Vector2 screenCenterPoint = new Vector2(Screen.width / 2f, Screen.height / 2f);
+        Ray ray = Camera.main.ScreenPointToRay(screenCenterPoint);
+        if (Physics.Raycast(ray, out RaycastHit raycastHit, 999f, aimColliderLayerMask))
+        {
+            Debug.Log("Bang!");
+
+            return raycastHit.point;
+        }
+
+        return Vector3.zero;
+
+
+    }
+
     private void OnDisable()
     {
         playerControls.Disable();

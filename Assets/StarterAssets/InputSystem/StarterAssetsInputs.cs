@@ -20,7 +20,16 @@ namespace StarterAssets
 		public bool cursorLocked = true;
 		public bool cursorInputForLook = true;
 
+		[Header("Shoot Settings")]
+		public bool isShooting = false;
+
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
+		
+		public void OnShoot(InputValue value)
+		{
+			ShootInput(value.isPressed);
+		}
+		
 		public void OnMove(InputValue value)
 		{
 			MoveInput(value.Get<Vector2>());
@@ -45,6 +54,10 @@ namespace StarterAssets
 		}
 #endif
 
+		public void ShootInput(bool shootInput)
+		{
+			isShooting = shootInput;
+		}
 
 		public void MoveInput(Vector2 newMoveDirection)
 		{
