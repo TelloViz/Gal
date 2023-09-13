@@ -1,12 +1,5 @@
 {
   "dependencies": {
-    "com.tarodev.uitoolkithelpers": {
-      "version": "https://github.com/Matthew-J-Spencer/Tarodev.git?path=Assets/Plugins/UIToolkitHelpers",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "7a2a1f5533846b559d9d4bea594387384fca2522"
-    },
     "com.unity.animation.rigging": {
       "version": "1.2.1",
       "depth": 0,
