@@ -18,8 +18,8 @@ TagManager:
   - Crosshair
   - NonDrawables
   - Shootable
-  - 
-  - 
+  - Terrain
+  - InvisibleWalls
   - 
   - 
   - 
