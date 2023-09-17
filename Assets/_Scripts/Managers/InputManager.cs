@@ -76,8 +76,7 @@ public class InputManager : Singleton<InputManager>
         }
 
         return Vector3.negativeInfinity;
-
-
+		
     }
 
     private void OnDisable()

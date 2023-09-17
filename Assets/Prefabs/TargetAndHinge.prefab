@@ -146,7 +146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3208358403778267606, guid: 7a4601c1dab66cc448b769b04eee5d5d, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7241520738541803522, guid: 7a4601c1dab66cc448b769b04eee5d5d, type: 3}
       propertyPath: m_Name
@@ -202,7 +202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8160733379235461299, guid: 7a4601c1dab66cc448b769b04eee5d5d, type: 3}
       propertyPath: m_BreakForce
-      value: 200
+      value: Infinity
       objectReference: {fileID: 0}
     - target: {fileID: 8160733379235461299, guid: 7a4601c1dab66cc448b769b04eee5d5d, type: 3}
       propertyPath: m_ConnectedBody
