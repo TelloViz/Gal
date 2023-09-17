@@ -29,6 +29,11 @@ namespace StarterAssets
 		[SerializeField]
 		private float hitStrength;
 
+		[SerializeField]
+		private AudioClip shootAudio;
+
+		[SerializeField]
+		private AudioSystem audioSystem;
 
 
 
@@ -192,9 +197,12 @@ namespace StarterAssets
 		{
 			if (context.performed == true)
 			{
+                audioSystem.PlaySound(shootAudio);
+
                 transformPos = null;
                 Vector2 screenCenterPoint = new Vector2(Screen.width / 2f, Screen.height / 2f);
                 Ray ray = Camera.main.ScreenPointToRay(screenCenterPoint);
+
                 if (Physics.Raycast(ray, out RaycastHit raycastHit, 999f, aimColliderMask))
                 {
 					transformPos = raycastHit.transform;
@@ -218,6 +226,8 @@ namespace StarterAssets
 					Debug.Log(hitRB.gameObject.name);
 					if (hitRB != null) hitRB.AddForce(-raycastHit.normal.normalized * hitStrength, ForceMode.Impulse);
 					else Debug.Log("Force not applied");
+
+
                     Instantiate(vfxHitGreen, transformPos.position, Quaternion.identity); 
 					Debug.Log("vfxHitGreen instantiated");
                 }
