@@ -13,13 +13,13 @@ GameObject:
   - component: {fileID: 8264254186092657662}
   - component: {fileID: 23754826759919739}
   - component: {fileID: 7837653025476386827}
-  m_Layer: 0
-  m_Name: Cylinder
-  m_TagString: Untagged
+  m_Layer: 9
+  m_Name: HingedTarget
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &740093948364271900
 Transform:
   m_ObjectHideFlags: 0
@@ -51,7 +51,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7150148633352410750}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -200,10 +200,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Target
       objectReference: {fileID: 0}
+    - target: {fileID: 7618592834508891334, guid: 1d23ed13a4786ca46918050890e40758, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 8218179137518429071, guid: 1d23ed13a4786ca46918050890e40758, type: 3}
       propertyPath: m_ConnectedBody
       value: 
       objectReference: {fileID: 7837653025476386827}
+    - target: {fileID: 8818691543111627682, guid: 1d23ed13a4786ca46918050890e40758, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

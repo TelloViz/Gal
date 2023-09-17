@@ -20,6 +20,17 @@ namespace StarterAssets
 		[SerializeField]
 		private Transform forwardStartVector;
 
+		[SerializeField]
+		private Transform vfxHitGreen;
+
+        [SerializeField]
+        private Transform vfxHitRed;
+
+		[SerializeField]
+		private float hitStrength;
+
+
+
 
 		[Header("Player")]
 		[Tooltip("Move speed of the character in m/s")]
@@ -67,6 +78,11 @@ namespace StarterAssets
 
 		[SerializeField]
 		private LayerMask layerMask = new LayerMask();
+
+		[SerializeField]
+		private LayerMask aimColliderMask = new LayerMask();
+
+		private Transform transformPos = null;
 
         // cinemachine
         private float _cinemachineTargetPitch;
@@ -132,44 +148,16 @@ namespace StarterAssets
 
 		private void Update()
 		{
-			JumpAndGravity();
-			GroundedCheck();
-			Move();
-		}
 
-		private void LateUpdate()
-		{
-			//CameraRotation();
-		}
+        }
 
-		private void GroundedCheck()
-		{
-			// set sphere position, with offset
-			Vector3 spherePosition = new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z);
-			Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers, QueryTriggerInteraction.Ignore);
-		}
 
-        //private void CameraRotation()
-        //{
-        //	// if there is an input
-        //	if (_input.look.sqrMagnitude >= _threshold)
-        //	{
-        //		//Don't multiply mouse input by Time.deltaTime
-        //		float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
-
-        //		_cinemachineTargetPitch += _input.look.y * RotationSpeed * deltaTimeMultiplier;
-        //		_rotationVelocity = _input.look.x * RotationSpeed * deltaTimeMultiplier;
-
-        //		// clamp our pitch rotation
-        //		_cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
-
-        //		// Update Cinemachine camera target pitch
-        //		CinemachineCameraTarget.transform.localRotation = Quaternion.Euler(_cinemachineTargetPitch, 0.0f, 0.0f);
-
-        //		// rotate the player left and right
-        //		transform.Rotate(Vector3.up * _rotationVelocity);
-        //	}
-        //}
+		//private void GroundedCheck()
+		//{
+		//	// set sphere position, with offset
+		//	Vector3 spherePosition = new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z);
+		//	Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers, QueryTriggerInteraction.Ignore);
+		//}
 
 		public void OnLook(CallbackContext context)
 		{
@@ -202,13 +190,40 @@ namespace StarterAssets
 
 		public void onShoot(CallbackContext context)
 		{
-			if (context.performed == true) Shoot();
+			if (context.performed == true)
+			{
+                transformPos = null;
+                Vector2 screenCenterPoint = new Vector2(Screen.width / 2f, Screen.height / 2f);
+                Ray ray = Camera.main.ScreenPointToRay(screenCenterPoint);
+                if (Physics.Raycast(ray, out RaycastHit raycastHit, 999f, aimColliderMask))
+                {
+					transformPos = raycastHit.transform;
+                    Shoot(raycastHit);
+
+                }
+                
+			}
 		}
 
-		private void Shoot()
+		private void Shoot(RaycastHit raycastHit)
 		{
-			InputManager.getMouseWorldPoint(layerMask);
-		}
+            //Vector3 pos = InputManager.Instance.getMouseWorldPoint(layerMask);
+            
+            if (transformPos != null)
+            {
+				if(transformPos.GetComponent<BulletTarget>() != null) // TODO make this use the same aimCollider mask instead of a GetComponent call
+                {
+					// TODO apply force to target in reverse direction to shot point
+					Rigidbody hitRB = transformPos.gameObject.GetComponent<Rigidbody>();
+					Debug.Log(hitRB.gameObject.name);
+					if (hitRB != null) hitRB.AddForce(-raycastHit.normal.normalized * hitStrength, ForceMode.Impulse);
+					else Debug.Log("Force not applied");
+                    Instantiate(vfxHitGreen, transformPos.position, Quaternion.identity); 
+					Debug.Log("vfxHitGreen instantiated");
+                }
+            }
+                    
+        }
 
 		public void onMove(CallbackContext context)
 		{
@@ -262,53 +277,53 @@ namespace StarterAssets
 			_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
 		}
 
-		private void JumpAndGravity()
-		{
-			if (Grounded)
-			{
-				// reset the fall timeout timer
-				_fallTimeoutDelta = FallTimeout;
+		//private void JumpAndGravity()
+		//{
+		//	if (Grounded)
+		//	{
+		//		// reset the fall timeout timer
+		//		_fallTimeoutDelta = FallTimeout;
 
-				// stop our velocity dropping infinitely when grounded
-				if (_verticalVelocity < 0.0f)
-				{
-					_verticalVelocity = -2f;
-				}
+		//		// stop our velocity dropping infinitely when grounded
+		//		if (_verticalVelocity < 0.0f)
+		//		{
+		//			_verticalVelocity = -2f;
+		//		}
 
-				// Jump
-				if (_input.jump && _jumpTimeoutDelta <= 0.0f)
-				{
-					// the square root of H * -2 * G = how much velocity needed to reach desired height
-					_verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
-				}
+		//		// Jump
+		//		if (_input.jump && _jumpTimeoutDelta <= 0.0f)
+		//		{
+		//			// the square root of H * -2 * G = how much velocity needed to reach desired height
+		//			_verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
+		//		}
 
-				// jump timeout
-				if (_jumpTimeoutDelta >= 0.0f)
-				{
-					_jumpTimeoutDelta -= Time.deltaTime;
-				}
-			}
-			else
-			{
-				// reset the jump timeout timer
-				_jumpTimeoutDelta = JumpTimeout;
+		//		// jump timeout
+		//		if (_jumpTimeoutDelta >= 0.0f)
+		//		{
+		//			_jumpTimeoutDelta -= Time.deltaTime;
+		//		}
+		//	}
+		//	else
+		//	{
+		//		// reset the jump timeout timer
+		//		_jumpTimeoutDelta = JumpTimeout;
 
-				// fall timeout
-				if (_fallTimeoutDelta >= 0.0f)
-				{
-					_fallTimeoutDelta -= Time.deltaTime;
-				}
+		//		// fall timeout
+		//		if (_fallTimeoutDelta >= 0.0f)
+		//		{
+		//			_fallTimeoutDelta -= Time.deltaTime;
+		//		}
 
-				// if we are not grounded, do not jump
-				_input.jump = false;
-			}
+		//		// if we are not grounded, do not jump
+		//		_input.jump = false;
+		//	}
 
-			// apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
-			if (_verticalVelocity < _terminalVelocity)
-			{
-				_verticalVelocity += Gravity * Time.deltaTime;
-			}
-		}
+		//	// apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
+		//	if (_verticalVelocity < _terminalVelocity)
+		//	{
+		//		_verticalVelocity += Gravity * Time.deltaTime;
+		//	}
+		//}
 
 		private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
 		{

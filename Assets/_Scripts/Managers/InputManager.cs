@@ -16,7 +16,6 @@ public class InputManager : Singleton<InputManager>
     [SerializeField]
     private LayerMask aimColliderLayerMask = new();
 
-    private Vector3 oldDebugTransformPosition = Vector3.negativeInfinity;
 
     private PlayerControls GetPlayerControls()
     {
@@ -60,12 +59,12 @@ public class InputManager : Singleton<InputManager>
             return raycastHit.point;
         }
 
-        return Vector3.zero;
+        return Vector3.negativeInfinity;
 
         
     }
 
-    static public Vector3 getMouseWorldPoint(LayerMask aimColliderLayerMask)
+    public Vector3 getMouseWorldPoint(LayerMask aimColliderLayerMask)
     {
         Vector2 screenCenterPoint = new Vector2(Screen.width / 2f, Screen.height / 2f);
         Ray ray = Camera.main.ScreenPointToRay(screenCenterPoint);
@@ -76,7 +75,7 @@ public class InputManager : Singleton<InputManager>
             return raycastHit.point;
         }
 
-        return Vector3.zero;
+        return Vector3.negativeInfinity;
 
 
     }
