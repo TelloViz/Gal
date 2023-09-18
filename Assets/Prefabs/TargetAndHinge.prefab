@@ -202,7 +202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8160733379235461299, guid: 7a4601c1dab66cc448b769b04eee5d5d, type: 3}
       propertyPath: m_BreakForce
-      value: Infinity
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 8160733379235461299, guid: 7a4601c1dab66cc448b769b04eee5d5d, type: 3}
       propertyPath: m_ConnectedBody
