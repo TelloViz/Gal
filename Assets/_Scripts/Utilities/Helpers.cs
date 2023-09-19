@@ -15,4 +15,19 @@ public static class Helpers
     public static void DestroyChildren(this Transform t) {
         foreach (Transform child in t) Object.Destroy(child.gameObject);
     }
+
+#if UNITY_WEBPLAYER
+    public static string webplayerQuitURL = "http://google.com";
+#endif
+    public static void Quit()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#elif UNITY_WEBPLAYER
+        Application.OpenURL(webplayerQuitURL);
+#else
+        Application.Quit();
+#endif
+    }
+
 }

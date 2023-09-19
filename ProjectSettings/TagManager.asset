@@ -3,20 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Crosshair
+  - CinemachineTarget
+  - Shootable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Buildings
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Crosshair
+  - NonDrawables
+  - Shootable
+  - Terrain
+  - InvisibleWalls
   - 
   - 
   - 
@@ -40,4 +43,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 7093555
+    locked: 0
+  - name: Buildings
+    uniqueID: 3003357603
+    locked: 0
+  - name: UI
+    uniqueID: 267950479
+    locked: 0
+  - name: Enclosure
+    uniqueID: 1039511245
+    locked: 0
+  - name: Ground
+    uniqueID: 769333291
+    locked: 0
+  - name: Crosshair
+    uniqueID: 3149983603
     locked: 0
