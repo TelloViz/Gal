@@ -1,6 +1,6 @@
 # Project Gal
 
-## An "dual-stick" type fishbowl shooter
+## A Wild West them;ed rail-gallery-shooter.
 
 <p> I'm working on this project in my free time. This project is low on the totem pole compared to:</p>
 
