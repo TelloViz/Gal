@@ -1,5 +1,5 @@
 # Project Gal
 
-## A Wild West them;ed rail-gallery-shooter.
+## A Wild West themed rail-gallery-shooter.
 
 <p> My current game project.</p>
