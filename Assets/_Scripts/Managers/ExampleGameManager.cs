@@ -6,36 +6,36 @@
 ///// state machines. But this will serve just fine for most games.
 ///// </summary>
 //public class ExampleGameManager : Singleton<ExampleGameManager> {
-//    public static event Action<GameState> OnBeforeStateChanged;
-//    public static event Action<GameState> OnAfterStateChanged;
+//    public static event Action<eGameState> OnBeforeStateChanged;
+//    public static event Action<eGameState> OnAfterStateChanged;
 
-//    public GameState State { get; private set; }
+//    public eGameState State { get; private set; }
 
 //    // Kick game off with the first state
-//    void Start() => ChangeState(GameState.Starting);
+//    void Start() => ChangeState(eGameState.Starting);
 
-//    public void ChangeState(GameState newState) {
+//    public void ChangeState(eGameState newState) {
 //        OnBeforeStateChanged?.Invoke(newState);
 
 //        State = newState;
 //        switch(newState) {
-//            case GameState.Starting:
+//            case eGameState.Starting:
 //                HandleStarting();
 //                break;
-//            case GameState.SpawningHeroes:
+//            case eGameState.SpawningHeroes:
 //                HandleSpawningHeroes();
 //                break;
-//            case GameState.SpawningEnemies:
+//            case eGameState.SpawningEnemies:
 //                HandleSpawningEnemies();
 //                break;
-//            case GameState.HeroTurn:
+//            case eGameState.HeroTurn:
 //                HandleHeroTurn();
 //                break;
-//            case GameState.EnemyTurn:
+//            case eGameState.EnemyTurn:
 //                break;
-//            case GameState.Win:
+//            case eGameState.Win:
 //                break;
-//            case GameState.Lose:
+//            case eGameState.Lose:
 //                break;
 //            default:
 //                throw new ArgumentOutOfRangeException(nameof(newState), newState, null);
@@ -51,20 +51,20 @@
 
 //        // Eventually call ChangeState again with your next state.
 
-//        ChangeState(GameState.SpawningHeroes);
+//        ChangeState(eGameState.SpawningHeroes);
 //    }
 
 //    private void HandleSpawningHeroes() {
 //        // ExampleUnitManager.Instance.SpawnHeroes();
 
-//        ChangeState(GameState.SpawningEnemies);
+//        ChangeState(eGameState.SpawningEnemies);
 //    }
 
 //    private void HandleSpawningEnemies()
 //    {
 //        // ExampleUnitManager.Instance.SpawnEnemies();
 
-//        // ChangeState(GameState.HeroTurn);
+//        // ChangeState(eGameState.HeroTurn);
 //    }
 
 //    private void HandleHeroTurn() {
@@ -83,7 +83,7 @@
 ///// Yoou can use a similar manager for controlling your menu states or dynamic-cinematics, etc.
 ///// </summary>
 //[Serializable]
-//public enum GameState {
+//public enum eGameState {
 //    Starting = 0,
 //    SpawningHeroes = 1,
 //    SpawningEnemies = 2,

@@ -2802,7 +2802,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3560799283528731146}
-  - component: {fileID: 384228376385379343}
+  - component: {fileID: 1843376261587398017}
   m_Layer: 6
   m_Name: Revolver_LP
   m_TagString: Untagged
@@ -2836,7 +2836,7 @@ Transform:
   - {fileID: 2758186990680800848}
   m_Father: {fileID: 6503649848419270856}
   m_LocalEulerAnglesHint: {x: -94.913, y: 3.5619965, z: 55.531}
---- !u!95 &384228376385379343
+--- !u!95 &1843376261587398017
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0

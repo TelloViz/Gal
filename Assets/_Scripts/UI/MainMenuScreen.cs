@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.UIElements;
 
 public class MainMenuScreen : MonoBehaviour
@@ -8,11 +9,18 @@ public class MainMenuScreen : MonoBehaviour
     [SerializeField] private UIDocument _document;
     [SerializeField] private StyleSheet _styleSheet;
 
-    public static event Action<float> ScaleChanged;
-    public static event Action StartClicked;
-    public static event Action QuitClicked;
+    [SerializeField] private Sprite logoSprite;
+    [SerializeField] private Texture2D logoTexture;
+
+    public static event Action StartButtonClicked;
+    public static event Action QuitButtonClicked;
+    
 
     private void Start()
+    {
+        StartCoroutine(Generate());
+    }
+    private void OnEnable()
     {
         StartCoroutine(Generate());
     }
@@ -33,23 +41,26 @@ public class MainMenuScreen : MonoBehaviour
 
         var container = Create("container");
 
-        var viewBox = Create("view-box", "bordered-box");
+        var viewBox = Create("view-box" /*, "bordered-box"*/);
         container.Add(viewBox);
 
-        var label = Create<Label>();
-        label.text = "GAL";
-        viewBox.Add(label);
+        // TODO add logic for loading logo image similar to how the commented out Label is created above and added to the ui
+        var logo = Create<Image>();
+        logoSprite = Sprite.Create(logoTexture, new Rect(0, 0, logoTexture.width, logoTexture.height), Vector2.zero);
+        logo.sprite = logoSprite;
+        viewBox.Add(logo);
 
-        var controlBox = Create("control-box", "bordered-box");
 
-        var spinBtn2 = Create<Button>();
+        var controlBox = Create("control-box" /*, "bordered-box"*/);
+
+        var spinBtn2 = Create<Button>("Button-Style");
         spinBtn2.text = "Load Up";
-        spinBtn2.clicked += StartClicked;
+        spinBtn2.clicked += StartButtonClicked;
         controlBox.Add(spinBtn2);
 
-        var spinBtn = Create<Button>();
+        var spinBtn = Create<Button>("Button-Style");
         spinBtn.text = "Tuck Tail";
-        spinBtn.clicked += QuitClicked;
+        spinBtn.clicked += QuitButtonClicked;
         controlBox.Add(spinBtn);
 
         //var scaleSlider = Create<Slider>();

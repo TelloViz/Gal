@@ -13,14 +13,14 @@ public class Cube : MonoBehaviour
     private void OnEnable()
     {
         //MainMenuScreen.ScaleChanged += OnScaleChanged;
-        MainMenuScreen.StartClicked += OnStartClicked;
-        MainMenuScreen.QuitClicked += OnQuitClicked;
+        MainMenuScreen.StartButtonClicked += OnStartClicked;
+        MainMenuScreen.QuitButtonClicked += OnQuitClicked;
     }
 
     private void OnDisable()
     {
         //MainMenuScreen.ScaleChanged -= OnScaleChanged;
-        MainMenuScreen.StartClicked -= OnStartClicked;
+        MainMenuScreen.StartButtonClicked -= OnStartClicked;
     }
 
     //private void OnScaleChanged(float newScale)

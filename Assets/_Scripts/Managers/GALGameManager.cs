@@ -1,101 +1,56 @@
 using System;
 using UnityEngine;
 
-/// <summary>
-/// Nice, easy to understand enum-based game manager. For larger more complex games, look into
-/// state machines. But this will serve just fine for most games.
-/// </summary>
 public class GALGameManager : Singleton<GALGameManager>
 {
 
-    public static event Action<GameState> OnBeforeStateChanged;
-    public static event Action<GameState> OnAfterStateChanged;
+    [Tooltip("The FSM governing the flow of the application")]
+    [SerializeField] private GameStateMachine gameStateMachine;    
 
-    public GameState State { get; private set; }
+    //[Header("Input Manager")]
+    [Tooltip("The Input Manager oversees any input systems")]
+    [SerializeField] private GameObject inputMgrGO;
+    private InputManager _inputMgr;
 
-    // Kick game off with the first state
-    void Start() => ChangeState(GameState.Starting);
+    [Tooltip("The Main Menu Manager oversees any Main Menu systems")]
+    [SerializeField] private GameObject mainMenuMgrGO;
+    private MainMenuManager _mainMenuMgr;
 
-    public void ChangeState(GameState newState)
-    {
-        OnBeforeStateChanged?.Invoke(newState);
-
-        State = newState;
-        switch (newState)
+    private void OnEnable()
         {
-            case GameState.Starting:
-                HandleStarting();
-                break;
-            case GameState.MainMenu:
-                HandleMainMenu();
-                break;
-            case GameState.SpawningHeroes:
-                HandleSpawningHeroes();
-                break;
-            case GameState.SpawningEnemies:
-                HandleSpawningEnemies();
-                break;
-            case GameState.HeroTurn:
-                HandleHeroTurn();
-                break;
-            case GameState.EnemyTurn:
-                break;
-            case GameState.Win:
-                break;
-            case GameState.Lose:
-                break;
-            default:
-                throw new ArgumentOutOfRangeException(nameof(newState), newState, null);
+            _inputMgr = inputMgrGO.GetComponent<InputManager>();
+            if (_inputMgr == null)
+            {
+                Debug.Log("No InputManager script found on Input Manager Game Object");
+            }
+
+            _mainMenuMgr = mainMenuMgrGO.GetComponent<MainMenuManager>();
+        if(_mainMenuMgr == null)
+        {
+            Debug.Log("No MainMenuManager script found on Main Menu Manager Game Object");
         }
 
-        OnAfterStateChanged?.Invoke(newState);
+        MainMenuManager.MainMenuManagerStartClicked += StartApplication;
+            MainMenuManager.MainMenuManagerQuitClicked += QuitApplication;
+        }
 
-        Debug.Log($"New State: {newState}");
-    }
+    private void OnDisable()
+        {
+            MainMenuManager.MainMenuManagerStartClicked -= StartApplication;
+            MainMenuManager.MainMenuManagerQuitClicked -= QuitApplication;
+        }
 
-    private void HandleStarting()
-    {
-        // Do some start setup, could be environment, cinematics, etc.
-
-        // Eventually call ChangeState again with your next state.
-       // ChangeState(GameState.MainMenu);
-    }
-
-    private void HandleMainMenu()
-    {
-        // State to idle in while we are in the main menu...
-
-
-
-
-
-        ChangeState(GameState.SpawningHeroes);
-    }
-
-    private void HandleSpawningHeroes()
-    {
-       // ExampleUnitManager.Instance.SpawnHeroes();
-
-        ChangeState(GameState.SpawningEnemies);
-    }
-
-    private void HandleSpawningEnemies()
-    {
-        //ExampleUnitManager.Instance.SpawnEnemies();
-
-        ChangeState(GameState.HeroTurn);
-    }
-
-    private void HandleHeroTurn()
-    {
-        // if you're making a turn based game, this could show the turn menu, highlight available units etc
-
-        // Keep track of how many units need to make a move, once they've all finished, change the state. This could
-        // be monitored in the unit manager or the units themselves.
-    }
-
-
-
+    private void StartApplication()
+        {
+            // This function will trigger the transition to the next game state after Main Menu State
+            Debug.Log("GalGameManager says: StartApplication() was called.");
+        }
+    
+    private void QuitApplication()
+        {
+            Debug.Log("GalGameManager says: Goodbye!");
+            Helpers.Quit();
+        }
 }
 
 /// <summary>
@@ -103,14 +58,17 @@ public class GALGameManager : Singleton<GALGameManager>
 /// Yoou can use a similar manager for controlling your menu states or dynamic-cinematics, etc.
 /// </summary>
 [Serializable]
-public enum GameState
+public enum eGameState
 {
-    Starting = 0,
-    MainMenu = 1,
-    SpawningHeroes = 2,
-    SpawningEnemies = 3,
-    HeroTurn = 4,
-    EnemyTurn = 5,
-    Win = 6,
-    Lose = 7
+     InitApp = 0,
+     InitMainMenu = 1,
+     MainMenu=2,
+     InitPrePlay=3,
+     PrePlay=4,
+     InitPlay=5,
+     Play=6,
+     InitScore=7,
+     Score=8,
+     InitContinue=9,
+     Continue=10
 }

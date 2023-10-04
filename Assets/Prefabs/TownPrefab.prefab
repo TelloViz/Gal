@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 15795861570995009}
   - component: {fileID: 6584127150144747540}
   - component: {fileID: 318388635706767681}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 4896931732380841079}
   - component: {fileID: 534386238257030173}
   - component: {fileID: 4079414306571608218}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 4077906661601701291}
   - component: {fileID: 4555526743343462992}
   - component: {fileID: 5782975735188911324}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Plant_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ GameObject:
   - component: {fileID: 825827240155293942}
   - component: {fileID: 5676646504664102569}
   - component: {fileID: 6723156251363572282}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 4120461495283942445}
   - component: {fileID: 2051342011912763448}
   - component: {fileID: 3678147471306403715}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -517,7 +517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8461722993869026622}
   - component: {fileID: 2670894648846238338}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Reflection Probe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 9011899335719222646}
   - component: {fileID: 1995457856952333085}
   - component: {fileID: 5735987724275708473}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -690,7 +690,7 @@ GameObject:
   - component: {fileID: 6021806679227631187}
   - component: {fileID: 6029681730565463861}
   - component: {fileID: 450965763907775228}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -796,7 +796,7 @@ GameObject:
   - component: {fileID: 3795762087669993201}
   - component: {fileID: 2495610124071515265}
   - component: {fileID: 2439063920911501818}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -902,7 +902,7 @@ GameObject:
   - component: {fileID: 7330594585445309199}
   - component: {fileID: 8572569871216511729}
   - component: {fileID: 6599693908439280698}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1008,7 +1008,7 @@ GameObject:
   - component: {fileID: 5096900226065162470}
   - component: {fileID: 5603214956558936716}
   - component: {fileID: 5000129340790988990}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1114,7 +1114,7 @@ GameObject:
   - component: {fileID: 3840916546762739816}
   - component: {fileID: 3429427567991644953}
   - component: {fileID: 6768508719092362452}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1220,7 +1220,7 @@ GameObject:
   - component: {fileID: 2543570187031647882}
   - component: {fileID: 1028468025338542521}
   - component: {fileID: 1599103654294520775}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1326,7 +1326,7 @@ GameObject:
   - component: {fileID: 8043564490022690124}
   - component: {fileID: 6607551470302126250}
   - component: {fileID: 2513483712716545267}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1432,7 +1432,7 @@ GameObject:
   - component: {fileID: 136955362688450520}
   - component: {fileID: 943170253564967642}
   - component: {fileID: 263148049357853586}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1538,7 +1538,7 @@ GameObject:
   - component: {fileID: 4998672040335232690}
   - component: {fileID: 4870514018646060754}
   - component: {fileID: 5896856820801413855}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1644,7 +1644,7 @@ GameObject:
   - component: {fileID: 4420288141573736503}
   - component: {fileID: 1031655530027458439}
   - component: {fileID: 7519547606508879865}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1750,7 +1750,7 @@ GameObject:
   - component: {fileID: 1986104500935047106}
   - component: {fileID: 4519240447222400387}
   - component: {fileID: 4337822727186943274}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1856,7 +1856,7 @@ GameObject:
   - component: {fileID: 7483113726373847964}
   - component: {fileID: 233481463286678472}
   - component: {fileID: 5566836783189342904}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1962,7 +1962,7 @@ GameObject:
   - component: {fileID: 1890886422907866547}
   - component: {fileID: 2356592679175740038}
   - component: {fileID: 2809933143957919735}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2068,7 +2068,7 @@ GameObject:
   - component: {fileID: 2528773270151422417}
   - component: {fileID: 2107109088002031276}
   - component: {fileID: 6210339377019749311}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2174,7 +2174,7 @@ GameObject:
   - component: {fileID: 4447767548907373067}
   - component: {fileID: 1518229472943741448}
   - component: {fileID: 1636506828490285197}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2279,7 +2279,7 @@ GameObject:
   - component: {fileID: 2900871776047008569}
   - component: {fileID: 4913213786045503980}
   - component: {fileID: 1265869183386382488}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Plant_04 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2363,7 +2363,7 @@ GameObject:
   - component: {fileID: 7694135192021293830}
   - component: {fileID: 2610510844562298768}
   - component: {fileID: 7358011703471015302}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2469,7 +2469,7 @@ GameObject:
   - component: {fileID: 5553195602191162233}
   - component: {fileID: 3401205759975682287}
   - component: {fileID: 92780396940872260}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2575,7 +2575,7 @@ GameObject:
   - component: {fileID: 7927056356044325857}
   - component: {fileID: 1466401674743299349}
   - component: {fileID: 3718389379834153897}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2681,7 +2681,7 @@ GameObject:
   - component: {fileID: 4590462783663529701}
   - component: {fileID: 2109415497148710664}
   - component: {fileID: 8368782453258229338}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2787,7 +2787,7 @@ GameObject:
   - component: {fileID: 1763270162584932395}
   - component: {fileID: 4128741094233851609}
   - component: {fileID: 2907076826185442576}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_04 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2893,7 +2893,7 @@ GameObject:
   - component: {fileID: 4892491645070566589}
   - component: {fileID: 3327083876141532158}
   - component: {fileID: 3471109143211838292}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2999,7 +2999,7 @@ GameObject:
   - component: {fileID: 1165944039850580885}
   - component: {fileID: 5300709349473146615}
   - component: {fileID: 5342211642224769101}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3105,7 +3105,7 @@ GameObject:
   - component: {fileID: 4819487118855431989}
   - component: {fileID: 3310469125497935437}
   - component: {fileID: 1805533530183441526}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Cart (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3211,7 +3211,7 @@ GameObject:
   - component: {fileID: 6102233070469695666}
   - component: {fileID: 9031788839446124268}
   - component: {fileID: 8818913029991824395}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3317,7 +3317,7 @@ GameObject:
   - component: {fileID: 5511646658996264565}
   - component: {fileID: 7365643163987182678}
   - component: {fileID: 7894175158938425033}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3423,7 +3423,7 @@ GameObject:
   - component: {fileID: 7558372607952951293}
   - component: {fileID: 4520753560424218103}
   - component: {fileID: 855064794139429279}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3529,7 +3529,7 @@ GameObject:
   - component: {fileID: 6813405800081500783}
   - component: {fileID: 5958602373333978615}
   - component: {fileID: 8276745134790089023}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3635,7 +3635,7 @@ GameObject:
   - component: {fileID: 5985917873662906854}
   - component: {fileID: 8931142737327603112}
   - component: {fileID: 6480487245473276906}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3741,7 +3741,7 @@ GameObject:
   - component: {fileID: 8339343023845644144}
   - component: {fileID: 8370330216532613694}
   - component: {fileID: 4671862589261942072}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3847,7 +3847,7 @@ GameObject:
   - component: {fileID: 4435093263259358133}
   - component: {fileID: 2336351338651040252}
   - component: {fileID: 2591471339280465475}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3953,7 +3953,7 @@ GameObject:
   - component: {fileID: 828601626666728396}
   - component: {fileID: 8782611861087018157}
   - component: {fileID: 7058811290986373393}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4059,7 +4059,7 @@ GameObject:
   - component: {fileID: 7963626427319915102}
   - component: {fileID: 5347995757518388532}
   - component: {fileID: 3928469798898076955}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4165,7 +4165,7 @@ GameObject:
   - component: {fileID: 807502640413691257}
   - component: {fileID: 1259757728558481113}
   - component: {fileID: 7225008094361984225}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4271,7 +4271,7 @@ GameObject:
   - component: {fileID: 2739474709741410360}
   - component: {fileID: 8734750964106050916}
   - component: {fileID: 2558459893406280103}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4377,7 +4377,7 @@ GameObject:
   - component: {fileID: 7209375838219368421}
   - component: {fileID: 5938524364506646378}
   - component: {fileID: 2750818795256836705}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4483,7 +4483,7 @@ GameObject:
   - component: {fileID: 8789033652036068637}
   - component: {fileID: 4787280582322865508}
   - component: {fileID: 7737413932588464134}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4589,7 +4589,7 @@ GameObject:
   - component: {fileID: 620037409746991420}
   - component: {fileID: 5782584044946016001}
   - component: {fileID: 8365548319093491641}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4695,7 +4695,7 @@ GameObject:
   - component: {fileID: 3588279769176347690}
   - component: {fileID: 3267060448688857685}
   - component: {fileID: 5711839206323196408}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4801,7 +4801,7 @@ GameObject:
   - component: {fileID: 9052248104393988115}
   - component: {fileID: 2576900088368920208}
   - component: {fileID: 5325091183319221464}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4907,7 +4907,7 @@ GameObject:
   - component: {fileID: 7943831026709488192}
   - component: {fileID: 7473739400752707636}
   - component: {fileID: 3626578890178783905}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5013,7 +5013,7 @@ GameObject:
   - component: {fileID: 1101819770272510781}
   - component: {fileID: 5046609738636656555}
   - component: {fileID: 7744425512901422641}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5119,7 +5119,7 @@ GameObject:
   - component: {fileID: 1641362335260532103}
   - component: {fileID: 4423065520213552008}
   - component: {fileID: 5954439897386090687}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5225,7 +5225,7 @@ GameObject:
   - component: {fileID: 8412118242581275158}
   - component: {fileID: 8758701496602705572}
   - component: {fileID: 2076120472504385100}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5331,7 +5331,7 @@ GameObject:
   - component: {fileID: 9156946693401854461}
   - component: {fileID: 3169378264457999458}
   - component: {fileID: 1442277347642485967}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5437,7 +5437,7 @@ GameObject:
   - component: {fileID: 528552617790652756}
   - component: {fileID: 4069596374209005515}
   - component: {fileID: 2184440710746557119}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5543,7 +5543,7 @@ GameObject:
   - component: {fileID: 6121918611844360302}
   - component: {fileID: 6361538642709124205}
   - component: {fileID: 3492436133290490064}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5649,7 +5649,7 @@ GameObject:
   - component: {fileID: 4619004616473462588}
   - component: {fileID: 5700521690711567522}
   - component: {fileID: 8741049802852870601}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5755,7 +5755,7 @@ GameObject:
   - component: {fileID: 2493230926271024943}
   - component: {fileID: 2957589121374970681}
   - component: {fileID: 2632694003148544246}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5861,7 +5861,7 @@ GameObject:
   - component: {fileID: 6172133488331753751}
   - component: {fileID: 3188818895059275652}
   - component: {fileID: 4527971279779308831}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5967,7 +5967,7 @@ GameObject:
   - component: {fileID: 5062904708253485351}
   - component: {fileID: 8959823703884268684}
   - component: {fileID: 6796119357939827536}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6073,7 +6073,7 @@ GameObject:
   - component: {fileID: 1248021781708390329}
   - component: {fileID: 7980351290759242104}
   - component: {fileID: 265439247424036909}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6179,7 +6179,7 @@ GameObject:
   - component: {fileID: 4911044025471772896}
   - component: {fileID: 187463735403433930}
   - component: {fileID: 6117728259154043044}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6285,7 +6285,7 @@ GameObject:
   - component: {fileID: 2985114365340794260}
   - component: {fileID: 7686088937782505000}
   - component: {fileID: 6032084963731088303}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6391,7 +6391,7 @@ GameObject:
   - component: {fileID: 1908104197631675812}
   - component: {fileID: 472569225955842589}
   - component: {fileID: 4738708867069827754}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6497,7 +6497,7 @@ GameObject:
   - component: {fileID: 2083333463641070122}
   - component: {fileID: 1569249914348104156}
   - component: {fileID: 5430341106511536892}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6603,7 +6603,7 @@ GameObject:
   - component: {fileID: 6572635674807927570}
   - component: {fileID: 2984965601697353833}
   - component: {fileID: 4448649781209081809}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Cart (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6709,7 +6709,7 @@ GameObject:
   - component: {fileID: 187094754494458692}
   - component: {fileID: 1546531911704118802}
   - component: {fileID: 3007330667204214838}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6815,7 +6815,7 @@ GameObject:
   - component: {fileID: 7995284530816922623}
   - component: {fileID: 1168727469684014525}
   - component: {fileID: 5538093021916306285}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6921,7 +6921,7 @@ GameObject:
   - component: {fileID: 4407051621752432215}
   - component: {fileID: 4236985677610552839}
   - component: {fileID: 164362852817948517}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7027,7 +7027,7 @@ GameObject:
   - component: {fileID: 412869966909255227}
   - component: {fileID: 5353017841957673225}
   - component: {fileID: 8153310743070205061}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7133,7 +7133,7 @@ GameObject:
   - component: {fileID: 8028800622981560983}
   - component: {fileID: 5781393015098774490}
   - component: {fileID: 7223026141718200979}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7239,7 +7239,7 @@ GameObject:
   - component: {fileID: 63944361560579458}
   - component: {fileID: 1158510205714284529}
   - component: {fileID: 8777926524100460063}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7345,7 +7345,7 @@ GameObject:
   - component: {fileID: 8816757310631757061}
   - component: {fileID: 6636699571204793657}
   - component: {fileID: 5155531888906597865}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_03 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7451,7 +7451,7 @@ GameObject:
   - component: {fileID: 1987484362314508142}
   - component: {fileID: 5767888028645576797}
   - component: {fileID: 558163059370407126}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7557,7 +7557,7 @@ GameObject:
   - component: {fileID: 778550051685902401}
   - component: {fileID: 6111196244433080010}
   - component: {fileID: 8337051266668773987}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7663,7 +7663,7 @@ GameObject:
   - component: {fileID: 6652888243181630786}
   - component: {fileID: 1347592132985601661}
   - component: {fileID: 8562074507402722907}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7769,7 +7769,7 @@ GameObject:
   - component: {fileID: 4830627615567029490}
   - component: {fileID: 7123903820176498376}
   - component: {fileID: 5340891010674242198}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7875,7 +7875,7 @@ GameObject:
   - component: {fileID: 6278843569589035462}
   - component: {fileID: 411935223837313635}
   - component: {fileID: 1143439565289244565}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7981,7 +7981,7 @@ GameObject:
   - component: {fileID: 1622210579928422955}
   - component: {fileID: 1887431692852391182}
   - component: {fileID: 7580924301064099763}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Cart (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8087,7 +8087,7 @@ GameObject:
   - component: {fileID: 7326640198272304259}
   - component: {fileID: 3981938800210324351}
   - component: {fileID: 6440502671748509437}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Cart (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8193,7 +8193,7 @@ GameObject:
   - component: {fileID: 1874349359589841105}
   - component: {fileID: 6932185460313082619}
   - component: {fileID: 2711613000989266461}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8299,7 +8299,7 @@ GameObject:
   - component: {fileID: 8831582905493682531}
   - component: {fileID: 7716985241051352408}
   - component: {fileID: 5118501268950020011}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8405,7 +8405,7 @@ GameObject:
   - component: {fileID: 7876059949148967786}
   - component: {fileID: 8198279778212912397}
   - component: {fileID: 1980298819771465870}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8511,7 +8511,7 @@ GameObject:
   - component: {fileID: 7460799832478775409}
   - component: {fileID: 5402474219175419330}
   - component: {fileID: 8158954214759198855}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8617,7 +8617,7 @@ GameObject:
   - component: {fileID: 7308673729328816250}
   - component: {fileID: 2576217544303765688}
   - component: {fileID: 17843267059697750}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8723,7 +8723,7 @@ GameObject:
   - component: {fileID: 8764791103562009502}
   - component: {fileID: 5359000601787967981}
   - component: {fileID: 1961465185744794483}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8829,7 +8829,7 @@ GameObject:
   - component: {fileID: 5807654893012413319}
   - component: {fileID: 2596158769592040116}
   - component: {fileID: 5618711744914045691}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8935,7 +8935,7 @@ GameObject:
   - component: {fileID: 3942130188176659089}
   - component: {fileID: 1119703734708390149}
   - component: {fileID: 6648732474961597046}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9041,7 +9041,7 @@ GameObject:
   - component: {fileID: 3782755077793206001}
   - component: {fileID: 7442473760759380015}
   - component: {fileID: 6076703935133801141}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Cart (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9147,7 +9147,7 @@ GameObject:
   - component: {fileID: 5920480875741073857}
   - component: {fileID: 7914017198969093740}
   - component: {fileID: 5690403545231428519}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9253,7 +9253,7 @@ GameObject:
   - component: {fileID: 5916208577137647355}
   - component: {fileID: 6535808762904426392}
   - component: {fileID: 1626694033403930357}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9359,7 +9359,7 @@ GameObject:
   - component: {fileID: 4267285626780632770}
   - component: {fileID: 8088850287272484536}
   - component: {fileID: 3926254850724355623}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9465,7 +9465,7 @@ GameObject:
   - component: {fileID: 1356475391642439463}
   - component: {fileID: 8254951771403680322}
   - component: {fileID: 5728195786842741831}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9571,7 +9571,7 @@ GameObject:
   - component: {fileID: 89251944899239548}
   - component: {fileID: 52834262427977232}
   - component: {fileID: 4222280827067559835}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9677,7 +9677,7 @@ GameObject:
   - component: {fileID: 8470704704525071903}
   - component: {fileID: 8678396047013741194}
   - component: {fileID: 1772001896081925589}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9783,7 +9783,7 @@ GameObject:
   - component: {fileID: 8068792159344286644}
   - component: {fileID: 6061505559367864480}
   - component: {fileID: 6464293231103232264}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9889,7 +9889,7 @@ GameObject:
   - component: {fileID: 3417994132785664167}
   - component: {fileID: 4372171871520612420}
   - component: {fileID: 6086048477672260825}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9995,7 +9995,7 @@ GameObject:
   - component: {fileID: 2288732064659318704}
   - component: {fileID: 9139488305216729266}
   - component: {fileID: 4877270818780055834}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10101,7 +10101,7 @@ GameObject:
   - component: {fileID: 6768581016573298229}
   - component: {fileID: 1057996760887594018}
   - component: {fileID: 8744047309164975555}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_04 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10207,7 +10207,7 @@ GameObject:
   - component: {fileID: 6915652168470558879}
   - component: {fileID: 1106639680332919837}
   - component: {fileID: 422346959444797046}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10313,7 +10313,7 @@ GameObject:
   - component: {fileID: 4374149603781504061}
   - component: {fileID: 3194981250672889806}
   - component: {fileID: 1298009626297359513}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10418,7 +10418,7 @@ GameObject:
   - component: {fileID: 8782049576066585421}
   - component: {fileID: 5878653053313000038}
   - component: {fileID: 4700063138095809044}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Plant_04 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10501,7 +10501,7 @@ GameObject:
   - component: {fileID: 2517691372605404113}
   - component: {fileID: 3155407344141854789}
   - component: {fileID: 5366883407444957667}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Plant_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10585,7 +10585,7 @@ GameObject:
   - component: {fileID: 464314509694401535}
   - component: {fileID: 404365713840856537}
   - component: {fileID: 7364263859328756428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_03 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10691,7 +10691,7 @@ GameObject:
   - component: {fileID: 727861237158130785}
   - component: {fileID: 3871003315956685364}
   - component: {fileID: 7360704624668736578}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10796,7 +10796,7 @@ GameObject:
   - component: {fileID: 296048180866579611}
   - component: {fileID: 4218240348047377325}
   - component: {fileID: 605283872345572554}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Plant_04 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10880,7 +10880,7 @@ GameObject:
   - component: {fileID: 386757998337139294}
   - component: {fileID: 1197883266561167324}
   - component: {fileID: 917219743857680996}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10986,7 +10986,7 @@ GameObject:
   - component: {fileID: 4149635095632995618}
   - component: {fileID: 645098571246575517}
   - component: {fileID: 1938454189790505051}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Cart (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11092,7 +11092,7 @@ GameObject:
   - component: {fileID: 6936562160468840129}
   - component: {fileID: 4331017733972626367}
   - component: {fileID: 5877328639239156983}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11197,7 +11197,7 @@ GameObject:
   - component: {fileID: 3657037783804210789}
   - component: {fileID: 636515882736803616}
   - component: {fileID: 2150971643215264584}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Plant_04 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11281,7 +11281,7 @@ GameObject:
   - component: {fileID: 3325784941290932752}
   - component: {fileID: 5280047954517591349}
   - component: {fileID: 6108864558762845873}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11387,7 +11387,7 @@ GameObject:
   - component: {fileID: 3881363475628254602}
   - component: {fileID: 91727394287164195}
   - component: {fileID: 2258218544266623128}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11493,7 +11493,7 @@ GameObject:
   - component: {fileID: 728213546702110259}
   - component: {fileID: 2687893578454948634}
   - component: {fileID: 2451804000731878186}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11599,7 +11599,7 @@ GameObject:
   - component: {fileID: 8944661483958515196}
   - component: {fileID: 2591878863181230804}
   - component: {fileID: 1008840902374982557}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11705,7 +11705,7 @@ GameObject:
   - component: {fileID: 3088317527419675980}
   - component: {fileID: 5306782908732790324}
   - component: {fileID: 3048027916527241533}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11811,7 +11811,7 @@ GameObject:
   - component: {fileID: 4422835394601376869}
   - component: {fileID: 1797455948995869407}
   - component: {fileID: 4508535493563397351}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_03 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11917,7 +11917,7 @@ GameObject:
   - component: {fileID: 8215534141857005832}
   - component: {fileID: 2528275081400524909}
   - component: {fileID: 6932575571766102671}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12023,7 +12023,7 @@ GameObject:
   - component: {fileID: 2544113642933547721}
   - component: {fileID: 3435254420008368220}
   - component: {fileID: 7973243820933337381}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12129,7 +12129,7 @@ GameObject:
   - component: {fileID: 2405637385721770181}
   - component: {fileID: 225414313799205176}
   - component: {fileID: 8092479040909859419}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12235,7 +12235,7 @@ GameObject:
   - component: {fileID: 6850694461364812400}
   - component: {fileID: 378606499534979866}
   - component: {fileID: 3550158159308533611}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12341,7 +12341,7 @@ GameObject:
   - component: {fileID: 1171057784844193792}
   - component: {fileID: 7229757849072293979}
   - component: {fileID: 7326871597036065344}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Cart (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12447,7 +12447,7 @@ GameObject:
   - component: {fileID: 1305445179717454341}
   - component: {fileID: 3896253678950814460}
   - component: {fileID: 1492660182665805878}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12553,7 +12553,7 @@ GameObject:
   - component: {fileID: 1249642693357246764}
   - component: {fileID: 2689805784061477620}
   - component: {fileID: 3190784372828765222}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12659,7 +12659,7 @@ GameObject:
   - component: {fileID: 7395879327144572571}
   - component: {fileID: 4017465440669293075}
   - component: {fileID: 1573601125616225901}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_03 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12765,7 +12765,7 @@ GameObject:
   - component: {fileID: 7157818217623440617}
   - component: {fileID: 651195054551303623}
   - component: {fileID: 8967782193028745607}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12871,7 +12871,7 @@ GameObject:
   - component: {fileID: 5102200591600322766}
   - component: {fileID: 4078353406415708443}
   - component: {fileID: 1934201283606656061}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12977,7 +12977,7 @@ GameObject:
   - component: {fileID: 2341975901082187045}
   - component: {fileID: 2466029326156590367}
   - component: {fileID: 7283778984313639359}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13083,7 +13083,7 @@ GameObject:
   - component: {fileID: 7622029685990496623}
   - component: {fileID: 8792810208515337131}
   - component: {fileID: 142129206706158067}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13189,7 +13189,7 @@ GameObject:
   - component: {fileID: 2728173446492992773}
   - component: {fileID: 313470667027221451}
   - component: {fileID: 7883898344670846323}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_03 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13295,7 +13295,7 @@ GameObject:
   - component: {fileID: 5366492287565579917}
   - component: {fileID: 8578059075585609522}
   - component: {fileID: 6342752007219167995}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13400,7 +13400,7 @@ GameObject:
   - component: {fileID: 8534105372935292381}
   - component: {fileID: 484878314497136970}
   - component: {fileID: 132892210914458696}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Plant_04 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13484,7 +13484,7 @@ GameObject:
   - component: {fileID: 7074517705422303047}
   - component: {fileID: 9076946685049850582}
   - component: {fileID: 1751560736799919404}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13590,7 +13590,7 @@ GameObject:
   - component: {fileID: 5924888653954339495}
   - component: {fileID: 7052844831808887106}
   - component: {fileID: 6826771728920626221}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13696,7 +13696,7 @@ GameObject:
   - component: {fileID: 6021226524350670850}
   - component: {fileID: 4885577860067684952}
   - component: {fileID: 7635185167887634865}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13802,7 +13802,7 @@ GameObject:
   - component: {fileID: 3934576660374520508}
   - component: {fileID: 501540206460218098}
   - component: {fileID: 8302874003610396755}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13908,7 +13908,7 @@ GameObject:
   - component: {fileID: 6069381526184492963}
   - component: {fileID: 4655260159181169343}
   - component: {fileID: 4580111578010014979}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14014,7 +14014,7 @@ GameObject:
   - component: {fileID: 5169288765268172764}
   - component: {fileID: 2030924409393848478}
   - component: {fileID: 6665440296624932369}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14120,7 +14120,7 @@ GameObject:
   - component: {fileID: 1193305498406210234}
   - component: {fileID: 2896349439839390803}
   - component: {fileID: 4047399562771434960}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14226,7 +14226,7 @@ GameObject:
   - component: {fileID: 4809574681030032879}
   - component: {fileID: 300612475885857636}
   - component: {fileID: 8820936871210432382}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14332,7 +14332,7 @@ GameObject:
   - component: {fileID: 2928648298146016658}
   - component: {fileID: 8524494762430211501}
   - component: {fileID: 5858475569934253307}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Cart (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14438,7 +14438,7 @@ GameObject:
   - component: {fileID: 1134474403323467321}
   - component: {fileID: 2805864223552216604}
   - component: {fileID: 5818448606707495838}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14544,7 +14544,7 @@ GameObject:
   - component: {fileID: 6665214115682764094}
   - component: {fileID: 1666800641106591713}
   - component: {fileID: 4329503386248370157}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14650,7 +14650,7 @@ GameObject:
   - component: {fileID: 333253352612344763}
   - component: {fileID: 1230750023823947345}
   - component: {fileID: 4796892047705751397}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14756,7 +14756,7 @@ GameObject:
   - component: {fileID: 2247756028218187702}
   - component: {fileID: 780501032354624976}
   - component: {fileID: 3377893623235237791}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14862,7 +14862,7 @@ GameObject:
   - component: {fileID: 6567270952296904384}
   - component: {fileID: 8881723987081602331}
   - component: {fileID: 7882479025581918323}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_03 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14968,7 +14968,7 @@ GameObject:
   - component: {fileID: 6897420436644974464}
   - component: {fileID: 3019420908076788196}
   - component: {fileID: 7355525178701677088}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15074,7 +15074,7 @@ GameObject:
   - component: {fileID: 6038988019419491101}
   - component: {fileID: 7543780886857430787}
   - component: {fileID: 6715774809304498019}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_03 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15180,7 +15180,7 @@ GameObject:
   - component: {fileID: 3104438169453666561}
   - component: {fileID: 5839929905729104903}
   - component: {fileID: 6543225264602705348}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15286,7 +15286,7 @@ GameObject:
   - component: {fileID: 5379777501677634032}
   - component: {fileID: 8126133104311459109}
   - component: {fileID: 1466995733663723106}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15392,7 +15392,7 @@ GameObject:
   - component: {fileID: 8627113795624341102}
   - component: {fileID: 3277340268082480345}
   - component: {fileID: 3310936922311575736}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15495,7 +15495,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2342421960278510130}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Town
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15668,7 +15668,7 @@ GameObject:
   - component: {fileID: 1553188630641784391}
   - component: {fileID: 3591073126477255512}
   - component: {fileID: 1697220855150188504}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15774,7 +15774,7 @@ GameObject:
   - component: {fileID: 1921796338111001377}
   - component: {fileID: 5474233615619747071}
   - component: {fileID: 8851081652258387486}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15880,7 +15880,7 @@ GameObject:
   - component: {fileID: 8035076117048734940}
   - component: {fileID: 336113604381287606}
   - component: {fileID: 2644940810512640825}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15986,7 +15986,7 @@ GameObject:
   - component: {fileID: 2268430685804017663}
   - component: {fileID: 2546031358920329485}
   - component: {fileID: 5215955373689262970}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16092,7 +16092,7 @@ GameObject:
   - component: {fileID: 545516108070988735}
   - component: {fileID: 8744985085326913449}
   - component: {fileID: 4610270621459128871}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16198,7 +16198,7 @@ GameObject:
   - component: {fileID: 4103802099048962104}
   - component: {fileID: 1537905883311181166}
   - component: {fileID: 1583992458734924576}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_03 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16304,7 +16304,7 @@ GameObject:
   - component: {fileID: 6922715427487755845}
   - component: {fileID: 1302304431255605470}
   - component: {fileID: 423718241491528577}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16410,7 +16410,7 @@ GameObject:
   - component: {fileID: 8529754759780104873}
   - component: {fileID: 4202644340587111252}
   - component: {fileID: 6224405144443099479}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_03 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16516,7 +16516,7 @@ GameObject:
   - component: {fileID: 519008804730645926}
   - component: {fileID: 1773761941371537218}
   - component: {fileID: 7438563960878219230}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16622,7 +16622,7 @@ GameObject:
   - component: {fileID: 4031868184483748826}
   - component: {fileID: 3568658116361651982}
   - component: {fileID: 2447830700106938979}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16728,7 +16728,7 @@ GameObject:
   - component: {fileID: 7463761136720306577}
   - component: {fileID: 6303172224663788574}
   - component: {fileID: 7115659093637761809}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16834,7 +16834,7 @@ GameObject:
   - component: {fileID: 2703869133456914894}
   - component: {fileID: 1071249899276444866}
   - component: {fileID: 400124681096222705}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16940,7 +16940,7 @@ GameObject:
   - component: {fileID: 7343569183308597679}
   - component: {fileID: 687193279148711815}
   - component: {fileID: 6213686226540268010}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17046,7 +17046,7 @@ GameObject:
   - component: {fileID: 5171034178517007837}
   - component: {fileID: 3047708372628693051}
   - component: {fileID: 5744539851720142512}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_03 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17152,7 +17152,7 @@ GameObject:
   - component: {fileID: 1217558361339592457}
   - component: {fileID: 5717063151858805416}
   - component: {fileID: 5209455626642199037}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17258,7 +17258,7 @@ GameObject:
   - component: {fileID: 4054696361154164993}
   - component: {fileID: 4883011835288855523}
   - component: {fileID: 385451674067773018}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17364,7 +17364,7 @@ GameObject:
   - component: {fileID: 128164441751200978}
   - component: {fileID: 1562210365618495685}
   - component: {fileID: 5243458920431416293}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17470,7 +17470,7 @@ GameObject:
   - component: {fileID: 2728942139212538330}
   - component: {fileID: 4203764705858996163}
   - component: {fileID: 6970545685081912034}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17576,7 +17576,7 @@ GameObject:
   - component: {fileID: 2198179361238189795}
   - component: {fileID: 546605237691771567}
   - component: {fileID: 4822434445253818803}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17682,7 +17682,7 @@ GameObject:
   - component: {fileID: 6455563824920900739}
   - component: {fileID: 7276067988616817288}
   - component: {fileID: 6974123600383332672}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17788,7 +17788,7 @@ GameObject:
   - component: {fileID: 5744326358600765588}
   - component: {fileID: 2017531167878495557}
   - component: {fileID: 1763720939345958450}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Cart (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17894,7 +17894,7 @@ GameObject:
   - component: {fileID: 4112517132900983750}
   - component: {fileID: 4592551488692747775}
   - component: {fileID: 991899895862716062}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17997,7 +17997,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 286434424663635870}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Town2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18062,7 +18062,6 @@ Transform:
   - {fileID: 5152849638278622906}
   - {fileID: 2252541059627894063}
   - {fileID: 8080680125341005146}
-  - {fileID: 6831693169524740915}
   - {fileID: 1408620850680897669}
   - {fileID: 4394205338301582177}
   - {fileID: 5897127141169460774}
@@ -18170,7 +18169,7 @@ GameObject:
   - component: {fileID: 6066753324155604137}
   - component: {fileID: 3995649314572546224}
   - component: {fileID: 7336344607493448921}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18276,7 +18275,7 @@ GameObject:
   - component: {fileID: 1668406984457789518}
   - component: {fileID: 8228240269625106996}
   - component: {fileID: 3486246846551594011}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18381,7 +18380,7 @@ GameObject:
   - component: {fileID: 8228818139126240027}
   - component: {fileID: 548686116729083865}
   - component: {fileID: 6851448270380305108}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Plant_04 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18465,7 +18464,7 @@ GameObject:
   - component: {fileID: 4900403587919680030}
   - component: {fileID: 7199028072017005616}
   - component: {fileID: 8769406015141432580}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18569,7 +18568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4548392216988652424}
   - component: {fileID: 3799055568410559633}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Reflection Probe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18636,7 +18635,7 @@ GameObject:
   - component: {fileID: 8002132405803871846}
   - component: {fileID: 3311930487256642603}
   - component: {fileID: 1186640101305934164}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18742,7 +18741,7 @@ GameObject:
   - component: {fileID: 8801739458749578116}
   - component: {fileID: 7170002646768367200}
   - component: {fileID: 8478690231551872125}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18847,7 +18846,7 @@ GameObject:
   - component: {fileID: 6940659498111770696}
   - component: {fileID: 7198223563202456056}
   - component: {fileID: 1426553524843193870}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Plant_04 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18931,7 +18930,7 @@ GameObject:
   - component: {fileID: 5353179352116504725}
   - component: {fileID: 4550922178953556104}
   - component: {fileID: 4371231713749480341}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19037,7 +19036,7 @@ GameObject:
   - component: {fileID: 1816050283247778973}
   - component: {fileID: 8284775486878431681}
   - component: {fileID: 2681267671028779346}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_03 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19143,7 +19142,7 @@ GameObject:
   - component: {fileID: 2089793037231944966}
   - component: {fileID: 771142876571598155}
   - component: {fileID: 6051974501215916674}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19249,7 +19248,7 @@ GameObject:
   - component: {fileID: 8660449164669662018}
   - component: {fileID: 5885982328312972296}
   - component: {fileID: 8205453601792975177}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19354,7 +19353,7 @@ GameObject:
   - component: {fileID: 7291720765505715157}
   - component: {fileID: 3883789897224006391}
   - component: {fileID: 8664361653476090821}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Plant_04 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19438,7 +19437,7 @@ GameObject:
   - component: {fileID: 3935933080181622296}
   - component: {fileID: 625153349502562926}
   - component: {fileID: 8078603135651066146}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19544,7 +19543,7 @@ GameObject:
   - component: {fileID: 2362890835767518805}
   - component: {fileID: 6494635176864354162}
   - component: {fileID: 8294236488705547356}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19650,7 +19649,7 @@ GameObject:
   - component: {fileID: 8469507398133776658}
   - component: {fileID: 7948525629782250625}
   - component: {fileID: 4833310865443848702}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19756,7 +19755,7 @@ GameObject:
   - component: {fileID: 5371209841448826268}
   - component: {fileID: 8239735885194641404}
   - component: {fileID: 2951452479976568243}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19862,7 +19861,7 @@ GameObject:
   - component: {fileID: 4081095270716860090}
   - component: {fileID: 1575289627603966522}
   - component: {fileID: 4614174815186667009}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19968,7 +19967,7 @@ GameObject:
   - component: {fileID: 3654308987065084218}
   - component: {fileID: 3683562648510311190}
   - component: {fileID: 7196289079083761266}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20074,7 +20073,7 @@ GameObject:
   - component: {fileID: 5369079519056873170}
   - component: {fileID: 6669702201296139693}
   - component: {fileID: 6724016339230248722}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20180,7 +20179,7 @@ GameObject:
   - component: {fileID: 5695354967651343319}
   - component: {fileID: 231801161495067098}
   - component: {fileID: 2404845760245014117}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20286,7 +20285,7 @@ GameObject:
   - component: {fileID: 5012213339105633575}
   - component: {fileID: 6870733649326767292}
   - component: {fileID: 4676700924576570128}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_03 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20392,7 +20391,7 @@ GameObject:
   - component: {fileID: 2809384446154067901}
   - component: {fileID: 4739086685728663605}
   - component: {fileID: 2241751881226387852}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20498,7 +20497,7 @@ GameObject:
   - component: {fileID: 2836494157408041025}
   - component: {fileID: 6432442665128713699}
   - component: {fileID: 3495668699880484488}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20604,7 +20603,7 @@ GameObject:
   - component: {fileID: 1232184088603519990}
   - component: {fileID: 4309969424616560496}
   - component: {fileID: 2167332427627358003}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20710,7 +20709,7 @@ GameObject:
   - component: {fileID: 3248276928296606296}
   - component: {fileID: 8379741795398624475}
   - component: {fileID: 7797757841004249397}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Cart (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20816,7 +20815,7 @@ GameObject:
   - component: {fileID: 3447028828047768693}
   - component: {fileID: 7414361137345962800}
   - component: {fileID: 9101762566795595196}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20922,7 +20921,7 @@ GameObject:
   - component: {fileID: 3400351175121730427}
   - component: {fileID: 3767447850911688366}
   - component: {fileID: 2572089042563706869}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21028,7 +21027,7 @@ GameObject:
   - component: {fileID: 1084777935406013156}
   - component: {fileID: 4730525313114184645}
   - component: {fileID: 1871668471846727918}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21134,7 +21133,7 @@ GameObject:
   - component: {fileID: 6696755759871811474}
   - component: {fileID: 8180357908590809819}
   - component: {fileID: 931585649243107190}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21240,7 +21239,7 @@ GameObject:
   - component: {fileID: 4169657929328073557}
   - component: {fileID: 490638956975579338}
   - component: {fileID: 8230810107495197710}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21346,7 +21345,7 @@ GameObject:
   - component: {fileID: 3900434241132498002}
   - component: {fileID: 6927333340749588549}
   - component: {fileID: 3964656482153323326}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_03 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21451,7 +21450,7 @@ GameObject:
   - component: {fileID: 5365725108323242544}
   - component: {fileID: 1903108387137172394}
   - component: {fileID: 5007814470165598199}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Plant_04 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21535,7 +21534,7 @@ GameObject:
   - component: {fileID: 8115072763552463431}
   - component: {fileID: 1347005854853127134}
   - component: {fileID: 3801893074151862918}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21641,7 +21640,7 @@ GameObject:
   - component: {fileID: 2391199836061472101}
   - component: {fileID: 8140419011702810985}
   - component: {fileID: 4857877729146618555}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21747,7 +21746,7 @@ GameObject:
   - component: {fileID: 7332742668883073356}
   - component: {fileID: 6768056325262844277}
   - component: {fileID: 219414077359325348}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21853,7 +21852,7 @@ GameObject:
   - component: {fileID: 6234364978970670421}
   - component: {fileID: 6234956644421830239}
   - component: {fileID: 6702448728367817587}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21959,7 +21958,7 @@ GameObject:
   - component: {fileID: 676640161013014294}
   - component: {fileID: 1807789179943717578}
   - component: {fileID: 5613719121944891465}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22065,7 +22064,7 @@ GameObject:
   - component: {fileID: 5929572408833124461}
   - component: {fileID: 6447036871192018345}
   - component: {fileID: 7197804077680117629}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22171,7 +22170,7 @@ GameObject:
   - component: {fileID: 6019500004690759799}
   - component: {fileID: 8056790212195719958}
   - component: {fileID: 8982881758148407575}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22277,7 +22276,7 @@ GameObject:
   - component: {fileID: 405059913011744280}
   - component: {fileID: 6080689603195989667}
   - component: {fileID: 6229680916618404113}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22383,7 +22382,7 @@ GameObject:
   - component: {fileID: 2268156824185701721}
   - component: {fileID: 6482338356304132721}
   - component: {fileID: 3329510551911782886}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22489,7 +22488,7 @@ GameObject:
   - component: {fileID: 3165764685044801109}
   - component: {fileID: 1340441614480734103}
   - component: {fileID: 3642096173818303454}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22595,7 +22594,7 @@ GameObject:
   - component: {fileID: 5135697299349657736}
   - component: {fileID: 2822242309421912539}
   - component: {fileID: 1823853071523632141}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22701,7 +22700,7 @@ GameObject:
   - component: {fileID: 4239871926708374808}
   - component: {fileID: 1296371034799922442}
   - component: {fileID: 8135481323842549856}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22807,7 +22806,7 @@ GameObject:
   - component: {fileID: 4118363835027927278}
   - component: {fileID: 8675190485752793936}
   - component: {fileID: 2157472076060889852}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22913,7 +22912,7 @@ GameObject:
   - component: {fileID: 5160785331437710726}
   - component: {fileID: 7843628895796910050}
   - component: {fileID: 5948842707309659942}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23019,7 +23018,7 @@ GameObject:
   - component: {fileID: 5135678350811677645}
   - component: {fileID: 6327868863699862090}
   - component: {fileID: 1547499191439343129}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23125,7 +23124,7 @@ GameObject:
   - component: {fileID: 1674464139943885614}
   - component: {fileID: 1334531130571951174}
   - component: {fileID: 7719149523160862353}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23231,7 +23230,7 @@ GameObject:
   - component: {fileID: 6252818921641710783}
   - component: {fileID: 145261352388588436}
   - component: {fileID: 5285243155326136157}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23337,7 +23336,7 @@ GameObject:
   - component: {fileID: 774929262813092535}
   - component: {fileID: 2044852526786072724}
   - component: {fileID: 9203031472503866174}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23443,7 +23442,7 @@ GameObject:
   - component: {fileID: 2065732957635629283}
   - component: {fileID: 1964151295196570732}
   - component: {fileID: 6803424264410117}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23549,7 +23548,7 @@ GameObject:
   - component: {fileID: 1175815454192850793}
   - component: {fileID: 7671373287174964219}
   - component: {fileID: 3717938115865867009}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23655,7 +23654,7 @@ GameObject:
   - component: {fileID: 2208027765533226234}
   - component: {fileID: 3412191038794336650}
   - component: {fileID: 7561208087347514930}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23761,7 +23760,7 @@ GameObject:
   - component: {fileID: 3735971707583269402}
   - component: {fileID: 2304127384218821146}
   - component: {fileID: 1730097824385362446}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_03 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23867,7 +23866,7 @@ GameObject:
   - component: {fileID: 2559146077271788588}
   - component: {fileID: 6382695614859959360}
   - component: {fileID: 9068719270689573979}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23973,7 +23972,7 @@ GameObject:
   - component: {fileID: 5287844238097948020}
   - component: {fileID: 7650878679489007555}
   - component: {fileID: 3325077064859104372}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_03 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24079,7 +24078,7 @@ GameObject:
   - component: {fileID: 4488065581400610404}
   - component: {fileID: 49033304040466619}
   - component: {fileID: 5021785116701045073}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24185,7 +24184,7 @@ GameObject:
   - component: {fileID: 1171014927222505702}
   - component: {fileID: 6740126630309280230}
   - component: {fileID: 3949916434000448029}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24291,7 +24290,7 @@ GameObject:
   - component: {fileID: 5078241421831468711}
   - component: {fileID: 1017091149276166934}
   - component: {fileID: 8859223117204774091}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24397,7 +24396,7 @@ GameObject:
   - component: {fileID: 3553350517498319628}
   - component: {fileID: 8340757369071945623}
   - component: {fileID: 8965414026362128508}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24503,7 +24502,7 @@ GameObject:
   - component: {fileID: 7483041474879525081}
   - component: {fileID: 6412804111787735761}
   - component: {fileID: 6225992187661605797}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24609,7 +24608,7 @@ GameObject:
   - component: {fileID: 5786185803593305354}
   - component: {fileID: 1022995526719888846}
   - component: {fileID: 4990213293172795186}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24715,7 +24714,7 @@ GameObject:
   - component: {fileID: 5380586275173670787}
   - component: {fileID: 1345592921741147694}
   - component: {fileID: 531676029411823200}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24821,7 +24820,7 @@ GameObject:
   - component: {fileID: 8520937077510434882}
   - component: {fileID: 3135398307520245712}
   - component: {fileID: 8698214636786245524}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24927,7 +24926,7 @@ GameObject:
   - component: {fileID: 8134352991155344353}
   - component: {fileID: 6875311349479799607}
   - component: {fileID: 4163616806564369390}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25033,7 +25032,7 @@ GameObject:
   - component: {fileID: 4970674074916683083}
   - component: {fileID: 7231942295593472606}
   - component: {fileID: 1410107154474164064}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25139,13 +25138,13 @@ GameObject:
   - component: {fileID: 5102326047805058956}
   - component: {fileID: 6875002566266062634}
   - component: {fileID: 2167668205105913406}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5681505932201959806
 Transform:
   m_ObjectHideFlags: 0
@@ -25154,13 +25153,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7702927473407090579}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.5, y: 0, z: 6}
+  m_LocalRotation: {x: -0, y: 0.09961935, z: -0, w: 0.99502563}
+  m_LocalPosition: {x: -6.186632, y: 0, z: 7.985733}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 286434424663635870}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 11.435, z: 0}
 --- !u!33 &5102326047805058956
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -25245,7 +25244,7 @@ GameObject:
   - component: {fileID: 8302119702436347860}
   - component: {fileID: 5441902624843744103}
   - component: {fileID: 1405296372699808737}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25351,7 +25350,7 @@ GameObject:
   - component: {fileID: 6903817299033387275}
   - component: {fileID: 130430812657853468}
   - component: {fileID: 3863070452603703562}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25457,7 +25456,7 @@ GameObject:
   - component: {fileID: 7405698959038703122}
   - component: {fileID: 4814279235114689827}
   - component: {fileID: 6773790346385518666}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Cart (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25563,7 +25562,7 @@ GameObject:
   - component: {fileID: 6024235225855883900}
   - component: {fileID: 3220212649145977327}
   - component: {fileID: 5591799557411199175}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25669,7 +25668,7 @@ GameObject:
   - component: {fileID: 6283337849453839814}
   - component: {fileID: 4969290775248751253}
   - component: {fileID: 8400026230832103611}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25775,7 +25774,7 @@ GameObject:
   - component: {fileID: 6457143633011924033}
   - component: {fileID: 26308525923197032}
   - component: {fileID: 4368195061659638341}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25881,7 +25880,7 @@ GameObject:
   - component: {fileID: 5573996862996260776}
   - component: {fileID: 7820070812931457843}
   - component: {fileID: 5795003467278656689}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25984,13 +25983,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6231605416010398308}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TownPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6231605416010398308
 Transform:
   m_ObjectHideFlags: 0
@@ -26020,7 +26019,7 @@ GameObject:
   - component: {fileID: 4661455982221217024}
   - component: {fileID: 926756844435000401}
   - component: {fileID: 6867727828397020854}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26126,7 +26125,7 @@ GameObject:
   - component: {fileID: 7732522265174779837}
   - component: {fileID: 8729536601694162487}
   - component: {fileID: 6133807823394196454}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26232,7 +26231,7 @@ GameObject:
   - component: {fileID: 1712333540674021312}
   - component: {fileID: 7159785405155879523}
   - component: {fileID: 4785704415048851941}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26338,7 +26337,7 @@ GameObject:
   - component: {fileID: 3434944105806993199}
   - component: {fileID: 5696255962158297959}
   - component: {fileID: 7133919735972785811}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26444,7 +26443,7 @@ GameObject:
   - component: {fileID: 5933371685109435407}
   - component: {fileID: 7882852584065952415}
   - component: {fileID: 1489777445736319327}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26550,7 +26549,7 @@ GameObject:
   - component: {fileID: 4979514498198995266}
   - component: {fileID: 2402460127635805439}
   - component: {fileID: 5556429876343503480}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26656,7 +26655,7 @@ GameObject:
   - component: {fileID: 6823118304396552287}
   - component: {fileID: 1368233877129901979}
   - component: {fileID: 2143332526580478251}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_03 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26762,7 +26761,7 @@ GameObject:
   - component: {fileID: 2332913962798759473}
   - component: {fileID: 3832119108240898049}
   - component: {fileID: 2776850853070775157}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26868,7 +26867,7 @@ GameObject:
   - component: {fileID: 3951405674023142954}
   - component: {fileID: 6293232407068458813}
   - component: {fileID: 553902845507662077}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_02 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26974,7 +26973,7 @@ GameObject:
   - component: {fileID: 8779288043716755106}
   - component: {fileID: 8793048708435748859}
   - component: {fileID: 4343540516336108818}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27080,7 +27079,7 @@ GameObject:
   - component: {fileID: 1323145117092690097}
   - component: {fileID: 8828345803228120726}
   - component: {fileID: 4006585810623576419}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27186,7 +27185,7 @@ GameObject:
   - component: {fileID: 8154294137708280684}
   - component: {fileID: 4994075650287651606}
   - component: {fileID: 2539542572340356627}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27292,7 +27291,7 @@ GameObject:
   - component: {fileID: 7387624279679818251}
   - component: {fileID: 7003452375342417858}
   - component: {fileID: 1125863554203832469}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27398,7 +27397,7 @@ GameObject:
   - component: {fileID: 499256515695391646}
   - component: {fileID: 8605411057367674842}
   - component: {fileID: 1126384660467659976}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27504,7 +27503,7 @@ GameObject:
   - component: {fileID: 1895801028875833059}
   - component: {fileID: 9137623233170298068}
   - component: {fileID: 4301979924376253361}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27610,7 +27609,7 @@ GameObject:
   - component: {fileID: 429496192388944604}
   - component: {fileID: 6532008933032139892}
   - component: {fileID: 1284680824278353331}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27716,7 +27715,7 @@ GameObject:
   - component: {fileID: 8828341108570017764}
   - component: {fileID: 2564335948155340816}
   - component: {fileID: 342674987546260998}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27822,7 +27821,7 @@ GameObject:
   - component: {fileID: 7469930272662778}
   - component: {fileID: 3494959154657508025}
   - component: {fileID: 5898615687970076802}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27928,7 +27927,7 @@ GameObject:
   - component: {fileID: 4614539469585742681}
   - component: {fileID: 7085996646774769323}
   - component: {fileID: 2565961594280272096}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_horseplace (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28034,7 +28033,7 @@ GameObject:
   - component: {fileID: 653823715153709033}
   - component: {fileID: 4510790469077523800}
   - component: {fileID: 5967822178518002395}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28140,7 +28139,7 @@ GameObject:
   - component: {fileID: 8258142099303471677}
   - component: {fileID: 658922424888527210}
   - component: {fileID: 7689942434841508350}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28246,7 +28245,7 @@ GameObject:
   - component: {fileID: 1201622213941645452}
   - component: {fileID: 7421014235433804077}
   - component: {fileID: 8672782165395961690}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Crate (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28340,112 +28339,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 39b91066438eb4d81a3edc156fb804a0, type: 3}
---- !u!1 &8757736790434058086
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6831693169524740915}
-  - component: {fileID: 5987620272579294160}
-  - component: {fileID: 2560434003826612192}
-  - component: {fileID: 3820442866153082696}
-  m_Layer: 0
-  m_Name: WT_Fences_pole (51)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &6831693169524740915
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8757736790434058086}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.5, y: 0, z: 6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 286434424663635870}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5987620272579294160
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8757736790434058086}
-  m_Mesh: {fileID: 4300000, guid: 64b9ccd9e556344279dc5f2a1d419fbc, type: 3}
---- !u!23 &2560434003826612192
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8757736790434058086}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: cf8ceb29d447c48be94fe70bf1edfd0b, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3820442866153082696
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8757736790434058086}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 64b9ccd9e556344279dc5f2a1d419fbc, type: 3}
 --- !u!1 &8786236238713110888
 GameObject:
   m_ObjectHideFlags: 0
@@ -28458,7 +28351,7 @@ GameObject:
   - component: {fileID: 1103695540252945980}
   - component: {fileID: 2213475379238550570}
   - component: {fileID: 4983630610926447477}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28564,7 +28457,7 @@ GameObject:
   - component: {fileID: 8200302631064679612}
   - component: {fileID: 5641411945165824675}
   - component: {fileID: 6091527012212660210}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28670,7 +28563,7 @@ GameObject:
   - component: {fileID: 5431040126767259434}
   - component: {fileID: 320458253490956839}
   - component: {fileID: 5780553346823819270}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28776,7 +28669,7 @@ GameObject:
   - component: {fileID: 4222746268481825151}
   - component: {fileID: 1370562109230132438}
   - component: {fileID: 7250356183569433013}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28882,7 +28775,7 @@ GameObject:
   - component: {fileID: 8668169180216355351}
   - component: {fileID: 4941795737829801651}
   - component: {fileID: 6170522423679179138}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_House_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28988,7 +28881,7 @@ GameObject:
   - component: {fileID: 7669190983325272765}
   - component: {fileID: 8793318854989789520}
   - component: {fileID: 4979354724237933569}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Cart (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29094,7 +28987,7 @@ GameObject:
   - component: {fileID: 3299208446355013915}
   - component: {fileID: 589557279314004507}
   - component: {fileID: 3767482629218462646}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29199,7 +29092,7 @@ GameObject:
   - component: {fileID: 6480580075517161253}
   - component: {fileID: 2597257572401920052}
   - component: {fileID: 8491292426732600673}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Plant_04 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29283,7 +29176,7 @@ GameObject:
   - component: {fileID: 5555599116060970696}
   - component: {fileID: 260265457465881539}
   - component: {fileID: 9047355099271927664}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Wooden_Props_Barrel (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29389,7 +29282,7 @@ GameObject:
   - component: {fileID: 2326283019762770207}
   - component: {fileID: 2203157308349804709}
   - component: {fileID: 5233872162309525586}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WT_Fences_pole (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
