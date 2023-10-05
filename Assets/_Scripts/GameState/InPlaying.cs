@@ -4,11 +4,11 @@ using System.Collections;
 
 namespace GameState
 {
-    public class InPauseMenu : State
+    public class InPlaying : State
     {
-        private const string DEFAULT_NAME = "InPauseMenu";
+        private const string DEFAULT_NAME = "InPlaying";
 
-        public InPauseMenu(string name = DEFAULT_NAME)
+        public InPlaying(string name = DEFAULT_NAME)
         {
             Name = name;
             UnityEngine.Debug.Log(name + " state created...");

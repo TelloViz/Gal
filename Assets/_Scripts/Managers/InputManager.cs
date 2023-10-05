@@ -4,8 +4,9 @@ using StarterAssets;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-
+[RequireComponent(typeof(InputManager), typeof(FirstPersonController), typeof(PlayerInput))]
 public class InputManager : Singleton<InputManager>
 {
     private PlayerControls playerControls;
